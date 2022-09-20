@@ -13,9 +13,9 @@ import "./Users.sol";
  */
 contract FPOChain is Users, Products {
     /**
-     * @dev Create a new SupplyChain with the provided 'manufacturer'
-     * @param name_ Name of the manufacturer
-     * @param email_ Email of the manufacturer
+     * @dev Create a new FPOhain with the provided 'FPOOrg'
+     * @param name_ Name of the FPOOrg
+     * @param email_ Email of the FPOOrg
      */
     constructor(string memory name_, string memory email_) {
         Types.UserDetails memory mn_ = Types.UserDetails({
