@@ -6155,12 +6155,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x682461005D818665e6Ac581a48152B29882BA01a",
-      "transactionHash": "0xa0b25070fd43fa8ffd23a4492bfcfac8f6919f19f30bfafd42ad0348c04177b6"
+      "address": "0x309B3f26FbCb4E9795449F43336183a832e623f8",
+      "transactionHash": "0x7f786faa86961e2658d29f11eff51d04d33a7543157fa600b937f5b7aa17952a"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-09-24T01:53:20.896Z",
+  "updatedAt": "2022-09-24T01:59:32.545Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Library for managing products",

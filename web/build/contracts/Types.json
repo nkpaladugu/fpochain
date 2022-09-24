@@ -912,12 +912,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xA9e9CC13cd74263CF37A05fBf46CA0ad77Dc9C92",
-      "transactionHash": "0x5ee2cea1a7012cef4bb494623255768697c210719e70169719b92105bc594864"
+      "address": "0x99E7576fBbE876B3580B2e35161Cfc77c076ADb3",
+      "transactionHash": "0x3323093b8a22b74761e6e31551247dc72b64099961977f3aacab564b99e2156b"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-09-24T01:53:20.885Z",
+  "updatedAt": "2022-09-24T01:59:32.535Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "All the custom types that we have used in FPO Chain",

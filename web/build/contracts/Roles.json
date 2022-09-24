@@ -1348,12 +1348,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xa3f9C3318bda80D6F2482Db9009fA49aB279DDb8",
-      "transactionHash": "0x9fd4b9a0111c4d8d0cf80a7081a23f6d70c63704a6ffe360b70b7b2c946a2f13"
+      "address": "0x3A8b38af89eA1Cf98D62E39a78a1927082246162",
+      "transactionHash": "0x184ac21835900b6791894db88cc4363638efbafacf9012934d6a6349e818fcd6"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-09-24T01:53:20.883Z",
+  "updatedAt": "2022-09-24T01:59:32.532Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Library for managing addresses assigned to a Role.",
