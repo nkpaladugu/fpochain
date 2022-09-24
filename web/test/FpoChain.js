@@ -9,8 +9,8 @@ contract('fpoChain', function(accounts) {
     const originFarmerID = accounts[1]
     const originFarmName = "Narendra Paladugu"
     const originFarmInformation = "KDCS FPO"
-    const originFarmLatitude = "-38.239770"
-    const originFarmLongitude = "144.341490"
+    const originFarmLatitude = "16.515099"
+    const originFarmLongitude = "80.632095"
     var productID = sku + upc
     const productNotes = "Best Basmati Rice with Low GI"
     const productPrice = web3.utils.toWei('1', "ether")
@@ -72,7 +72,7 @@ contract('fpoChain', function(accounts) {
         assert.equal(eventEmitted, true, 'Invalid event emitted')        
     })    
 
-    it("Testing smart contract function processItem() that allows a farmer to process coffee", async() => {
+    it("Testing smart contract function processItem() that allows a farmer to process ", async() => {
         const fpoChain = await FpoChain.deployed()
         
         // Declare and Initialize a variable for event
@@ -104,7 +104,7 @@ contract('fpoChain', function(accounts) {
         assert.equal(eventEmitted, true, 'Invalid event emitted')
     })    
 
-    it("Testing smart contract function packItem() that allows a farmer to pack coffee", async() => {
+    it("Testing smart contract function packItem() that allows a farmer to pack ", async() => {
         const fpoChain = await FpoChain.deployed()
         
         // Declare and Initialize a variable for event
@@ -136,7 +136,7 @@ contract('fpoChain', function(accounts) {
         assert.equal(eventEmitted, true, 'Invalid event emitted')
     })
 
-    it("Testing smart contract function sellItem() that allows a farmer to sell coffee", async() => {
+    it("Testing smart contract function sellItem() that allows a farmer to sell ", async() => {
         const fpoChain = await FpoChain.deployed()
         
         // Declare and Initialize a variable for event
@@ -169,7 +169,7 @@ contract('fpoChain', function(accounts) {
         assert.equal(eventEmitted, true, 'Invalid event emitted')
     })    
 
-    it("Testing smart contract function buyItem() that allows a distributor to buy coffee", async() => {
+    it("Testing smart contract function buyItem() that allows a distributor to buy ", async() => {
         const fpoChain = await FpoChain.deployed()
         
         // Declare and Initialize a variable for event
