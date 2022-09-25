@@ -105,7 +105,7 @@
         483
       ],
       "Types": [
-        1283
+        558
       ]
     },
     "id": 484,
@@ -139,7 +139,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 484,
-        "sourceUnit": 1284,
+        "sourceUnit": 559,
         "src": "96:21:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -177,7 +177,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage",
               "typeString": "struct Types.Product[]"
             },
             "typeName": {
@@ -192,13 +192,13 @@
                     "234:7:0"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1282,
+                  "referencedDeclaration": 557,
                   "src": "228:13:0"
                 },
-                "referencedDeclaration": 1282,
+                "referencedDeclaration": 557,
                 "src": "228:13:0",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                  "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                   "typeString": "struct Types.Product"
                 }
               },
@@ -206,7 +206,7 @@
               "nodeType": "ArrayTypeName",
               "src": "228:15:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr",
                 "typeString": "struct Types.Product[]"
               }
             },
@@ -224,7 +224,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+              "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
               "typeString": "mapping(string => struct Types.Product)"
             },
             "typeName": {
@@ -242,7 +242,7 @@
               "nodeType": "Mapping",
               "src": "267:32:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                 "typeString": "mapping(string => struct Types.Product)"
               },
               "valueType": {
@@ -256,13 +256,13 @@
                     "291:7:0"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1282,
+                  "referencedDeclaration": 557,
                   "src": "285:13:0"
                 },
-                "referencedDeclaration": 1282,
+                "referencedDeclaration": 557,
                 "src": "285:13:0",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                  "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                   "typeString": "struct Types.Product"
                 }
               }
@@ -336,7 +336,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+              "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
               "typeString": "mapping(string => struct Types.ProductHistory)"
             },
             "typeName": {
@@ -354,7 +354,7 @@
               "nodeType": "Mapping",
               "src": "384:39:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                 "typeString": "mapping(string => struct Types.ProductHistory)"
               },
               "valueType": {
@@ -368,13 +368,13 @@
                     "408:14:0"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1253,
+                  "referencedDeclaration": 528,
                   "src": "402:20:0"
                 },
-                "referencedDeclaration": 1253,
+                "referencedDeclaration": 528,
                 "src": "402:20:0",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_ProductHistory_$1253_storage_ptr",
+                  "typeIdentifier": "t_struct$_ProductHistory_$528_storage_ptr",
                   "typeString": "struct Types.ProductHistory"
                 }
               }
@@ -870,7 +870,7 @@
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct Types.Product[]"
                       },
                       "typeName": {
@@ -885,13 +885,13 @@
                               "1218:7:0"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 1282,
+                            "referencedDeclaration": 557,
                             "src": "1212:13:0"
                           },
-                          "referencedDeclaration": 1282,
+                          "referencedDeclaration": 557,
                           "src": "1212:13:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                             "typeString": "struct Types.Product"
                           }
                         },
@@ -899,7 +899,7 @@
                         "nodeType": "ArrayTypeName",
                         "src": "1212:15:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr",
                           "typeString": "struct Types.Product[]"
                         }
                       },
@@ -952,7 +952,7 @@
                       "nodeType": "NewExpression",
                       "src": "1247:19:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr_$",
+                        "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr_$",
                         "typeString": "function (uint256) pure returns (struct Types.Product memory[] memory)"
                       },
                       "typeName": {
@@ -967,13 +967,13 @@
                               "1257:7:0"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 1282,
+                            "referencedDeclaration": 557,
                             "src": "1251:13:0"
                           },
-                          "referencedDeclaration": 1282,
+                          "referencedDeclaration": 557,
                           "src": "1251:13:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                             "typeString": "struct Types.Product"
                           }
                         },
@@ -981,7 +981,7 @@
                         "nodeType": "ArrayTypeName",
                         "src": "1251:15:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr",
                           "typeString": "struct Types.Product[]"
                         }
                       }
@@ -998,7 +998,7 @@
                     "src": "1247:32:0",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct Types.Product memory[] memory"
                     }
                   },
@@ -1027,7 +1027,7 @@
                               "referencedDeclaration": 74,
                               "src": "1345:9:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr",
+                                "typeIdentifier": "t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr",
                                 "typeString": "struct Types.Product memory[] memory"
                               }
                             },
@@ -1051,7 +1051,7 @@
                             "nodeType": "IndexAccess",
                             "src": "1345:12:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                              "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                               "typeString": "struct Types.Product memory"
                             }
                           },
@@ -1066,7 +1066,7 @@
                               "referencedDeclaration": 13,
                               "src": "1360:7:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                                "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                                 "typeString": "mapping(string memory => struct Types.Product storage ref)"
                               }
                             },
@@ -1115,13 +1115,13 @@
                             "nodeType": "IndexAccess",
                             "src": "1360:16:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Product_$1282_storage",
+                              "typeIdentifier": "t_struct$_Product_$557_storage",
                               "typeString": "struct Types.Product storage ref"
                             }
                           },
                           "src": "1345:31:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -1286,7 +1286,7 @@
                     "referencedDeclaration": 74,
                     "src": "1403:9:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct Types.Product memory[] memory"
                     }
                   },
@@ -1332,7 +1332,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Product_$1282_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Product_$557_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct Types.Product[]"
                   },
                   "typeName": {
@@ -1347,13 +1347,13 @@
                           "1121:7:0"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 1282,
+                        "referencedDeclaration": 557,
                         "src": "1115:13:0"
                       },
-                      "referencedDeclaration": 1282,
+                      "referencedDeclaration": 557,
                       "src": "1115:13:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                        "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                         "typeString": "struct Types.Product"
                       }
                     },
@@ -1361,7 +1361,7 @@
                     "nodeType": "ArrayTypeName",
                     "src": "1115:15:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr",
                       "typeString": "struct Types.Product[]"
                     }
                   },
@@ -1394,7 +1394,7 @@
                           "referencedDeclaration": 13,
                           "src": "1821:7:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                             "typeString": "mapping(string memory => struct Types.Product storage ref)"
                           }
                         },
@@ -1418,7 +1418,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1821:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Product_$1282_storage",
+                          "typeIdentifier": "t_struct$_Product_$557_storage",
                           "typeString": "struct Types.Product storage ref"
                         }
                       },
@@ -1431,7 +1431,7 @@
                           "referencedDeclaration": 23,
                           "src": "1842:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                             "typeString": "mapping(string memory => struct Types.ProductHistory storage ref)"
                           }
                         },
@@ -1455,7 +1455,7 @@
                         "nodeType": "IndexAccess",
                         "src": "1842:26:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_ProductHistory_$1253_storage",
+                          "typeIdentifier": "t_struct$_ProductHistory_$528_storage",
                           "typeString": "struct Types.ProductHistory storage ref"
                         }
                       }
@@ -1469,7 +1469,7 @@
                     "nodeType": "TupleExpression",
                     "src": "1820:49:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$_t_struct$_Product_$1282_storage_$_t_struct$_ProductHistory_$1253_storage_$",
+                      "typeIdentifier": "t_tuple$_t_struct$_Product_$557_storage_$_t_struct$_ProductHistory_$528_storage_$",
                       "typeString": "tuple(struct Types.Product storage ref,struct Types.ProductHistory storage ref)"
                     }
                   },
@@ -1543,7 +1543,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                    "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                     "typeString": "struct Types.Product"
                   },
                   "typeName": {
@@ -1557,13 +1557,13 @@
                         "1754:7:0"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1282,
+                      "referencedDeclaration": 557,
                       "src": "1748:13:0"
                     },
-                    "referencedDeclaration": 1282,
+                    "referencedDeclaration": 557,
                     "src": "1748:13:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                      "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                       "typeString": "struct Types.Product"
                     }
                   },
@@ -1581,7 +1581,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ProductHistory_$1253_memory_ptr",
+                    "typeIdentifier": "t_struct$_ProductHistory_$528_memory_ptr",
                     "typeString": "struct Types.ProductHistory"
                   },
                   "typeName": {
@@ -1595,13 +1595,13 @@
                         "1776:14:0"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1253,
+                      "referencedDeclaration": 528,
                       "src": "1770:20:0"
                     },
-                    "referencedDeclaration": 1253,
+                    "referencedDeclaration": 528,
                     "src": "1770:20:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ProductHistory_$1253_storage_ptr",
+                      "typeIdentifier": "t_struct$_ProductHistory_$528_storage_ptr",
                       "typeString": "struct Types.ProductHistory"
                     }
                   },
@@ -1644,7 +1644,7 @@
                             "referencedDeclaration": 134,
                             "src": "2251:8:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                              "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                               "typeString": "struct Types.Product memory"
                             }
                           },
@@ -1656,7 +1656,7 @@
                           "memberLocation": "2260:10:0",
                           "memberName": "fpoaddress",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1259,
+                          "referencedDeclaration": 534,
                           "src": "2251:19:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -1771,7 +1771,7 @@
                         "referencedDeclaration": 134,
                         "src": "2350:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                          "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                           "typeString": "struct Types.Product memory"
                         }
                       }
@@ -1779,7 +1779,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                          "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                           "typeString": "struct Types.Product memory"
                         }
                       ],
@@ -1791,7 +1791,7 @@
                         "referencedDeclaration": 8,
                         "src": "2336:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Product_$1282_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Product_$557_storage_$dyn_storage",
                           "typeString": "struct Types.Product storage ref[] storage ref"
                         }
                       },
@@ -1805,7 +1805,7 @@
                       "nodeType": "MemberAccess",
                       "src": "2336:13:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr_$_t_struct$_Product_$1282_storage_$returns$__$bound_to$_t_array$_t_struct$_Product_$1282_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr_$_t_struct$_Product_$557_storage_$returns$__$bound_to$_t_array$_t_struct$_Product_$557_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Types.Product storage ref[] storage pointer,struct Types.Product storage ref)"
                       }
                     },
@@ -1845,7 +1845,7 @@
                         "referencedDeclaration": 13,
                         "src": "2369:7:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                          "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                           "typeString": "mapping(string memory => struct Types.Product storage ref)"
                         }
                       },
@@ -1859,7 +1859,7 @@
                           "referencedDeclaration": 134,
                           "src": "2377:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -1871,7 +1871,7 @@
                         "memberLocation": "2386:9:0",
                         "memberName": "barcodeId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1269,
+                        "referencedDeclaration": 544,
                         "src": "2377:18:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -1885,7 +1885,7 @@
                       "nodeType": "IndexAccess",
                       "src": "2369:27:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Product_$1282_storage",
+                        "typeIdentifier": "t_struct$_Product_$557_storage",
                         "typeString": "struct Types.Product storage ref"
                       }
                     },
@@ -1899,13 +1899,13 @@
                       "referencedDeclaration": 134,
                       "src": "2399:8:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                        "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                         "typeString": "struct Types.Product memory"
                       }
                     },
                     "src": "2369:38:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Product_$1282_storage",
+                      "typeIdentifier": "t_struct$_Product_$557_storage",
                       "typeString": "struct Types.Product storage ref"
                     }
                   },
@@ -1930,7 +1930,7 @@
                           "referencedDeclaration": 23,
                           "src": "2417:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                            "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                             "typeString": "mapping(string memory => struct Types.ProductHistory storage ref)"
                           }
                         },
@@ -1944,7 +1944,7 @@
                             "referencedDeclaration": 134,
                             "src": "2432:8:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                              "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                               "typeString": "struct Types.Product memory"
                             }
                           },
@@ -1956,7 +1956,7 @@
                           "memberLocation": "2441:9:0",
                           "memberName": "barcodeId",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1269,
+                          "referencedDeclaration": 544,
                           "src": "2432:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -1970,7 +1970,7 @@
                         "nodeType": "IndexAccess",
                         "src": "2417:34:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_ProductHistory_$1253_storage",
+                          "typeIdentifier": "t_struct$_ProductHistory_$528_storage",
                           "typeString": "struct Types.ProductHistory storage ref"
                         }
                       },
@@ -1982,10 +1982,10 @@
                       "memberLocation": "2452:12:0",
                       "memberName": "manufacturer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1242,
+                      "referencedDeclaration": 517,
                       "src": "2417:47:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                        "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                         "typeString": "struct Types.UserHistory storage ref"
                       }
                     },
@@ -2049,10 +2049,10 @@
                           "name": "Types",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1283,
+                          "referencedDeclaration": 558,
                           "src": "2467:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                            "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                             "typeString": "type(library Types)"
                           }
                         },
@@ -2064,10 +2064,10 @@
                         "memberLocation": "2473:11:0",
                         "memberName": "UserHistory",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1239,
+                        "referencedDeclaration": 514,
                         "src": "2467:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_UserHistory_$1239_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_UserHistory_$514_storage_ptr_$",
                           "typeString": "type(struct Types.UserHistory storage pointer)"
                         }
                       },
@@ -2089,13 +2089,13 @@
                       "src": "2467:90:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                        "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                         "typeString": "struct Types.UserHistory memory"
                       }
                     },
                     "src": "2417:140:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                      "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                       "typeString": "struct Types.UserHistory storage ref"
                     }
                   },
@@ -2115,7 +2115,7 @@
                           "referencedDeclaration": 134,
                           "src": "2603:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -2127,7 +2127,7 @@
                         "memberLocation": "2612:9:0",
                         "memberName": "barcodeId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1269,
+                        "referencedDeclaration": 544,
                         "src": "2603:18:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -2251,7 +2251,7 @@
                       "referencedDeclaration": 134,
                       "src": "2196:8:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                        "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                         "typeString": "struct Types.Product memory"
                       }
                     },
@@ -2263,7 +2263,7 @@
                     "memberLocation": "2205:9:0",
                     "memberName": "barcodeId",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1269,
+                    "referencedDeclaration": 544,
                     "src": "2196:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -2306,7 +2306,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                    "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                     "typeString": "struct Types.Product"
                   },
                   "typeName": {
@@ -2320,13 +2320,13 @@
                         "2107:7:0"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1282,
+                      "referencedDeclaration": 557,
                       "src": "2101:13:0"
                     },
-                    "referencedDeclaration": 1282,
+                    "referencedDeclaration": 557,
                     "src": "2101:13:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                      "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                       "typeString": "struct Types.Product"
                     }
                   },
@@ -2397,7 +2397,7 @@
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                        "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                         "typeString": "struct Types.Product"
                       },
                       "typeName": {
@@ -2411,13 +2411,13 @@
                             "3176:7:0"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 1282,
+                          "referencedDeclaration": 557,
                           "src": "3170:13:0"
                         },
-                        "referencedDeclaration": 1282,
+                        "referencedDeclaration": 557,
                         "src": "3170:13:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Product_$1282_storage_ptr",
+                          "typeIdentifier": "t_struct$_Product_$557_storage_ptr",
                           "typeString": "struct Types.Product"
                         }
                       },
@@ -2434,7 +2434,7 @@
                       "referencedDeclaration": 13,
                       "src": "3202:7:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                         "typeString": "mapping(string memory => struct Types.Product storage ref)"
                       }
                     },
@@ -2458,7 +2458,7 @@
                     "nodeType": "IndexAccess",
                     "src": "3202:19:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Product_$1282_storage",
+                      "typeIdentifier": "t_struct$_Product_$557_storage",
                       "typeString": "struct Types.Product storage ref"
                     }
                   },
@@ -2482,7 +2482,7 @@
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                        "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                         "typeString": "struct Types.UserHistory"
                       },
                       "typeName": {
@@ -2496,13 +2496,13 @@
                             "3274:11:0"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 1239,
+                          "referencedDeclaration": 514,
                           "src": "3268:17:0"
                         },
-                        "referencedDeclaration": 1239,
+                        "referencedDeclaration": 514,
                         "src": "3268:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserHistory_$1239_storage_ptr",
+                          "typeIdentifier": "t_struct$_UserHistory_$514_storage_ptr",
                           "typeString": "struct Types.UserHistory"
                         }
                       },
@@ -2521,7 +2521,7 @@
                           "referencedDeclaration": 196,
                           "src": "3345:6:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                            "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                             "typeString": "struct Types.UserDetails memory"
                           }
                         },
@@ -2533,7 +2533,7 @@
                         "memberLocation": "3352:3:0",
                         "memberName": "id_",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1223,
+                        "referencedDeclaration": 498,
                         "src": "3345:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2569,10 +2569,10 @@
                         "name": "Types",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1283,
+                        "referencedDeclaration": 558,
                         "src": "3308:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                          "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                           "typeString": "type(library Types)"
                         }
                       },
@@ -2584,10 +2584,10 @@
                       "memberLocation": "3314:11:0",
                       "memberName": "UserHistory",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1239,
+                      "referencedDeclaration": 514,
                       "src": "3308:17:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_UserHistory_$1239_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_UserHistory_$514_storage_ptr_$",
                         "typeString": "type(struct Types.UserHistory storage pointer)"
                       }
                     },
@@ -2609,7 +2609,7 @@
                     "src": "3308:90:0",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                      "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                       "typeString": "struct Types.UserHistory memory"
                     }
                   },
@@ -2619,7 +2619,7 @@
                 {
                   "condition": {
                     "commonType": {
-                      "typeIdentifier": "t_enum$_UserRole_$1218",
+                      "typeIdentifier": "t_enum$_UserRole_$493",
                       "typeString": "enum Types.UserRole"
                     },
                     "id": 233,
@@ -2638,7 +2638,7 @@
                             "referencedDeclaration": 196,
                             "src": "3427:6:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                              "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                               "typeString": "struct Types.UserDetails memory"
                             }
                           },
@@ -2650,10 +2650,10 @@
                           "memberLocation": "3434:4:0",
                           "memberName": "role",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1221,
+                          "referencedDeclaration": 496,
                           "src": "3427:11:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_UserRole_$1218",
+                            "typeIdentifier": "t_enum$_UserRole_$493",
                             "typeString": "enum Types.UserRole"
                           }
                         }
@@ -2661,7 +2661,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_enum$_UserRole_$1218",
+                            "typeIdentifier": "t_enum$_UserRole_$493",
                             "typeString": "enum Types.UserRole"
                           }
                         ],
@@ -2670,10 +2670,10 @@
                           "name": "Types",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1283,
+                          "referencedDeclaration": 558,
                           "src": "3412:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                            "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                             "typeString": "type(library Types)"
                           }
                         },
@@ -2685,10 +2685,10 @@
                         "memberLocation": "3418:8:0",
                         "memberName": "UserRole",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1218,
+                        "referencedDeclaration": 493,
                         "src": "3412:14:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                          "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                           "typeString": "type(enum Types.UserRole)"
                         }
                       },
@@ -2704,7 +2704,7 @@
                       "src": "3412:27:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_UserRole_$1218",
+                        "typeIdentifier": "t_enum$_UserRole_$493",
                         "typeString": "enum Types.UserRole"
                       }
                     },
@@ -2717,10 +2717,10 @@
                           "name": "Types",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1283,
+                          "referencedDeclaration": 558,
                           "src": "3443:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                            "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                             "typeString": "type(library Types)"
                           }
                         },
@@ -2732,10 +2732,10 @@
                         "memberLocation": "3449:8:0",
                         "memberName": "UserRole",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1218,
+                        "referencedDeclaration": 493,
                         "src": "3443:14:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                          "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                           "typeString": "type(enum Types.UserRole)"
                         }
                       },
@@ -2747,10 +2747,10 @@
                       "memberLocation": "3458:6:0",
                       "memberName": "Farmer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1215,
+                      "referencedDeclaration": 490,
                       "src": "3443:21:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_UserRole_$1218",
+                        "typeIdentifier": "t_enum$_UserRole_$493",
                         "typeString": "enum Types.UserRole"
                       }
                     },
@@ -2763,7 +2763,7 @@
                   "falseBody": {
                     "condition": {
                       "commonType": {
-                        "typeIdentifier": "t_enum$_UserRole_$1218",
+                        "typeIdentifier": "t_enum$_UserRole_$493",
                         "typeString": "enum Types.UserRole"
                       },
                       "id": 250,
@@ -2782,7 +2782,7 @@
                               "referencedDeclaration": 196,
                               "src": "3566:6:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                                "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                                 "typeString": "struct Types.UserDetails memory"
                               }
                             },
@@ -2794,10 +2794,10 @@
                             "memberLocation": "3573:4:0",
                             "memberName": "role",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 1221,
+                            "referencedDeclaration": 496,
                             "src": "3566:11:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_UserRole_$1218",
+                              "typeIdentifier": "t_enum$_UserRole_$493",
                               "typeString": "enum Types.UserRole"
                             }
                           }
@@ -2805,7 +2805,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_enum$_UserRole_$1218",
+                              "typeIdentifier": "t_enum$_UserRole_$493",
                               "typeString": "enum Types.UserRole"
                             }
                           ],
@@ -2814,10 +2814,10 @@
                             "name": "Types",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1283,
+                            "referencedDeclaration": 558,
                             "src": "3551:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                              "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                               "typeString": "type(library Types)"
                             }
                           },
@@ -2829,10 +2829,10 @@
                           "memberLocation": "3557:8:0",
                           "memberName": "UserRole",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1218,
+                          "referencedDeclaration": 493,
                           "src": "3551:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                            "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                             "typeString": "type(enum Types.UserRole)"
                           }
                         },
@@ -2848,7 +2848,7 @@
                         "src": "3551:27:0",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_UserRole_$1218",
+                          "typeIdentifier": "t_enum$_UserRole_$493",
                           "typeString": "enum Types.UserRole"
                         }
                       },
@@ -2861,10 +2861,10 @@
                             "name": "Types",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1283,
+                            "referencedDeclaration": 558,
                             "src": "3582:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                              "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                               "typeString": "type(library Types)"
                             }
                           },
@@ -2876,10 +2876,10 @@
                           "memberLocation": "3588:8:0",
                           "memberName": "UserRole",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1218,
+                          "referencedDeclaration": 493,
                           "src": "3582:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                            "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                             "typeString": "type(enum Types.UserRole)"
                           }
                         },
@@ -2891,10 +2891,10 @@
                         "memberLocation": "3597:3:0",
                         "memberName": "Fpo",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1214,
+                        "referencedDeclaration": 489,
                         "src": "3582:18:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_UserRole_$1218",
+                          "typeIdentifier": "t_enum$_UserRole_$493",
                           "typeString": "enum Types.UserRole"
                         }
                       },
@@ -2907,7 +2907,7 @@
                     "falseBody": {
                       "condition": {
                         "commonType": {
-                          "typeIdentifier": "t_enum$_UserRole_$1218",
+                          "typeIdentifier": "t_enum$_UserRole_$493",
                           "typeString": "enum Types.UserRole"
                         },
                         "id": 267,
@@ -2926,7 +2926,7 @@
                                 "referencedDeclaration": 196,
                                 "src": "3700:6:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                                  "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                                   "typeString": "struct Types.UserDetails memory"
                                 }
                               },
@@ -2938,10 +2938,10 @@
                               "memberLocation": "3707:4:0",
                               "memberName": "role",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 1221,
+                              "referencedDeclaration": 496,
                               "src": "3700:11:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_UserRole_$1218",
+                                "typeIdentifier": "t_enum$_UserRole_$493",
                                 "typeString": "enum Types.UserRole"
                               }
                             }
@@ -2949,7 +2949,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_enum$_UserRole_$1218",
+                                "typeIdentifier": "t_enum$_UserRole_$493",
                                 "typeString": "enum Types.UserRole"
                               }
                             ],
@@ -2958,10 +2958,10 @@
                               "name": "Types",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1283,
+                              "referencedDeclaration": 558,
                               "src": "3685:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                                "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                                 "typeString": "type(library Types)"
                               }
                             },
@@ -2973,10 +2973,10 @@
                             "memberLocation": "3691:8:0",
                             "memberName": "UserRole",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 1218,
+                            "referencedDeclaration": 493,
                             "src": "3685:14:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                              "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                               "typeString": "type(enum Types.UserRole)"
                             }
                           },
@@ -2992,7 +2992,7 @@
                           "src": "3685:27:0",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_UserRole_$1218",
+                            "typeIdentifier": "t_enum$_UserRole_$493",
                             "typeString": "enum Types.UserRole"
                           }
                         },
@@ -3005,10 +3005,10 @@
                               "name": "Types",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1283,
+                              "referencedDeclaration": 558,
                               "src": "3716:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Types_$1283_$",
+                                "typeIdentifier": "t_type$_t_contract$_Types_$558_$",
                                 "typeString": "type(library Types)"
                               }
                             },
@@ -3020,10 +3020,10 @@
                             "memberLocation": "3722:8:0",
                             "memberName": "UserRole",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 1218,
+                            "referencedDeclaration": 493,
                             "src": "3716:14:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_enum$_UserRole_$1218_$",
+                              "typeIdentifier": "t_type$_t_enum$_UserRole_$493_$",
                               "typeString": "type(enum Types.UserRole)"
                             }
                           },
@@ -3035,10 +3035,10 @@
                           "memberLocation": "3731:8:0",
                           "memberName": "Customer",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1217,
+                          "referencedDeclaration": 492,
                           "src": "3716:23:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_UserRole_$1218",
+                            "typeIdentifier": "t_enum$_UserRole_$493",
                             "typeString": "enum Types.UserRole"
                           }
                         },
@@ -3135,7 +3135,7 @@
                                   "referencedDeclaration": 217,
                                   "src": "3797:12:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                                    "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                                     "typeString": "struct Types.UserHistory memory"
                                   }
                                 }
@@ -3143,7 +3143,7 @@
                               "expression": {
                                 "argumentTypes": [
                                   {
-                                    "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                                    "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                                     "typeString": "struct Types.UserHistory memory"
                                   }
                                 ],
@@ -3157,7 +3157,7 @@
                                       "referencedDeclaration": 23,
                                       "src": "3755:14:0",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                                        "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                                         "typeString": "mapping(string memory => struct Types.ProductHistory storage ref)"
                                       }
                                     },
@@ -3181,7 +3181,7 @@
                                     "nodeType": "IndexAccess",
                                     "src": "3755:26:0",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_struct$_ProductHistory_$1253_storage",
+                                      "typeIdentifier": "t_struct$_ProductHistory_$528_storage",
                                       "typeString": "struct Types.ProductHistory storage ref"
                                     }
                                   },
@@ -3193,10 +3193,10 @@
                                   "memberLocation": "3782:9:0",
                                   "memberName": "customers",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 1252,
+                                  "referencedDeclaration": 527,
                                   "src": "3755:36:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_array$_t_struct$_UserHistory_$1239_storage_$dyn_storage",
+                                    "typeIdentifier": "t_array$_t_struct$_UserHistory_$514_storage_$dyn_storage",
                                     "typeString": "struct Types.UserHistory storage ref[] storage ref"
                                   }
                                 },
@@ -3210,7 +3210,7 @@
                                 "nodeType": "MemberAccess",
                                 "src": "3755:41:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_UserHistory_$1239_storage_$dyn_storage_ptr_$_t_struct$_UserHistory_$1239_storage_$returns$__$bound_to$_t_array$_t_struct$_UserHistory_$1239_storage_$dyn_storage_ptr_$",
+                                  "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_UserHistory_$514_storage_$dyn_storage_ptr_$_t_struct$_UserHistory_$514_storage_$returns$__$bound_to$_t_array$_t_struct$_UserHistory_$514_storage_$dyn_storage_ptr_$",
                                   "typeString": "function (struct Types.UserHistory storage ref[] storage pointer,struct Types.UserHistory storage ref)"
                                 }
                               },
@@ -3262,7 +3262,7 @@
                                   "referencedDeclaration": 23,
                                   "src": "3616:14:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                                    "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                                     "typeString": "mapping(string memory => struct Types.ProductHistory storage ref)"
                                   }
                                 },
@@ -3286,7 +3286,7 @@
                                 "nodeType": "IndexAccess",
                                 "src": "3616:26:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_ProductHistory_$1253_storage",
+                                  "typeIdentifier": "t_struct$_ProductHistory_$528_storage",
                                   "typeString": "struct Types.ProductHistory storage ref"
                                 }
                               },
@@ -3298,10 +3298,10 @@
                               "memberLocation": "3643:6:0",
                               "memberName": "vendor",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 1248,
+                              "referencedDeclaration": 523,
                               "src": "3616:33:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                                "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                                 "typeString": "struct Types.UserHistory storage ref"
                               }
                             },
@@ -3315,13 +3315,13 @@
                               "referencedDeclaration": 217,
                               "src": "3652:12:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                                "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                                 "typeString": "struct Types.UserHistory memory"
                               }
                             },
                             "src": "3616:48:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                              "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                               "typeString": "struct Types.UserHistory storage ref"
                             }
                           },
@@ -3357,7 +3357,7 @@
                                 "referencedDeclaration": 23,
                                 "src": "3480:14:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$1253_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_ProductHistory_$528_storage_$",
                                   "typeString": "mapping(string memory => struct Types.ProductHistory storage ref)"
                                 }
                               },
@@ -3381,7 +3381,7 @@
                               "nodeType": "IndexAccess",
                               "src": "3480:26:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_ProductHistory_$1253_storage",
+                                "typeIdentifier": "t_struct$_ProductHistory_$528_storage",
                                 "typeString": "struct Types.ProductHistory storage ref"
                               }
                             },
@@ -3393,10 +3393,10 @@
                             "memberLocation": "3507:8:0",
                             "memberName": "supplier",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 1245,
+                            "referencedDeclaration": 520,
                             "src": "3480:35:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                              "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                               "typeString": "struct Types.UserHistory storage ref"
                             }
                           },
@@ -3410,13 +3410,13 @@
                             "referencedDeclaration": 217,
                             "src": "3518:12:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserHistory_$1239_memory_ptr",
+                              "typeIdentifier": "t_struct$_UserHistory_$514_memory_ptr",
                               "typeString": "struct Types.UserHistory memory"
                             }
                           },
                           "src": "3480:50:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserHistory_$1239_storage",
+                            "typeIdentifier": "t_struct$_UserHistory_$514_storage",
                             "typeString": "struct Types.UserHistory storage ref"
                           }
                         },
@@ -3540,7 +3540,7 @@
                           "referencedDeclaration": 208,
                           "src": "4109:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -3552,7 +3552,7 @@
                         "memberLocation": "4118:4:0",
                         "memberName": "name",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1255,
+                        "referencedDeclaration": 530,
                         "src": "4109:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3568,7 +3568,7 @@
                           "referencedDeclaration": 208,
                           "src": "4136:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -3580,7 +3580,7 @@
                         "memberLocation": "4145:10:0",
                         "memberName": "farmerName",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1257,
+                        "referencedDeclaration": 532,
                         "src": "4136:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3596,7 +3596,7 @@
                           "referencedDeclaration": 208,
                           "src": "4169:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -3608,7 +3608,7 @@
                         "memberLocation": "4178:14:0",
                         "memberName": "scientificName",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1276,
+                        "referencedDeclaration": 551,
                         "src": "4169:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3624,7 +3624,7 @@
                           "referencedDeclaration": 208,
                           "src": "4206:8:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Product_$1282_memory_ptr",
+                            "typeIdentifier": "t_struct$_Product_$557_memory_ptr",
                             "typeString": "struct Types.Product memory"
                           }
                         },
@@ -3636,7 +3636,7 @@
                         "memberLocation": "4215:9:0",
                         "memberName": "barcodeId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1269,
+                        "referencedDeclaration": 544,
                         "src": "4206:18:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3652,7 +3652,7 @@
                           "referencedDeclaration": 196,
                           "src": "4238:6:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                            "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                             "typeString": "struct Types.UserDetails memory"
                           }
                         },
@@ -3664,7 +3664,7 @@
                         "memberLocation": "4245:4:0",
                         "memberName": "name",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1225,
+                        "referencedDeclaration": 500,
                         "src": "4238:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3680,7 +3680,7 @@
                           "referencedDeclaration": 196,
                           "src": "4263:6:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                            "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                             "typeString": "struct Types.UserDetails memory"
                           }
                         },
@@ -3692,7 +3692,7 @@
                         "memberLocation": "4270:5:0",
                         "memberName": "email",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1227,
+                        "referencedDeclaration": 502,
                         "src": "4263:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -3875,7 +3875,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_UserDetails_$1228_memory_ptr",
+                    "typeIdentifier": "t_struct$_UserDetails_$503_memory_ptr",
                     "typeString": "struct Types.UserDetails"
                   },
                   "typeName": {
@@ -3889,13 +3889,13 @@
                         "3063:11:0"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1228,
+                      "referencedDeclaration": 503,
                       "src": "3057:17:0"
                     },
-                    "referencedDeclaration": 1228,
+                    "referencedDeclaration": 503,
                     "src": "3057:17:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserDetails_$1228_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserDetails_$503_storage_ptr",
                       "typeString": "struct Types.UserDetails"
                     }
                   },
@@ -3974,7 +3974,7 @@
                                   "referencedDeclaration": 13,
                                   "src": "4487:7:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                                    "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                                     "typeString": "mapping(string memory => struct Types.Product storage ref)"
                                   }
                                 },
@@ -3998,7 +3998,7 @@
                                 "nodeType": "IndexAccess",
                                 "src": "4487:12:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_Product_$1282_storage",
+                                  "typeIdentifier": "t_struct$_Product_$557_storage",
                                   "typeString": "struct Types.Product storage ref"
                                 }
                               },
@@ -4010,7 +4010,7 @@
                               "memberLocation": "4500:9:0",
                               "memberName": "barcodeId",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 1269,
+                              "referencedDeclaration": 544,
                               "src": "4487:22:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_storage",
@@ -4195,7 +4195,7 @@
                                 "referencedDeclaration": 13,
                                 "src": "4722:7:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$1282_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_string_memory_ptr_$_t_struct$_Product_$557_storage_$",
                                   "typeString": "mapping(string memory => struct Types.Product storage ref)"
                                 }
                               },
@@ -4219,7 +4219,7 @@
                               "nodeType": "IndexAccess",
                               "src": "4722:12:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Product_$1282_storage",
+                                "typeIdentifier": "t_struct$_Product_$557_storage",
                                 "typeString": "struct Types.Product storage ref"
                               }
                             },
@@ -4231,7 +4231,7 @@
                             "memberLocation": "4735:9:0",
                             "memberName": "barcodeId",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 1269,
+                            "referencedDeclaration": 544,
                             "src": "4722:22:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_storage",
@@ -6155,12 +6155,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0217eCe9A1ee543A6CCEd48388187B0dd79776e5",
-      "transactionHash": "0xb30b8c44c7cbc4c0e49b257fee21105a440c95c7b26572dde84a78a2990afa5e"
+      "address": "0x2B79d1Be64b8dfeb08358037759A182A1AAdE0Cd",
+      "transactionHash": "0xdeb42c52265848f995f46385d67cca3313e9bc9df5380f29558c3367aec33a84"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-09-24T07:07:29.562Z",
+  "updatedAt": "2022-09-24T11:58:20.247Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Library for managing products",

@@ -10,13 +10,33 @@ import "./Types.sol";
  * @dev 
  */
 contract Users {
-    mapping(address => Types.UserDetails) internal users;
-    mapping(address => Types.UserDetails[]) internal fpoList;
-    mapping(address => Types.UserDetails[]) internal retailerList;
-    mapping(address => Types.UserDetails[]) internal bankList;
+    //mapping(address => Types.UserDetails) public users;
+    mapping(address => Types.UserDetails) internal PlatformOwnerlist;
+    mapping(address => Types.UserDetails) internal InsuranceAgencylist;
+    mapping(address => Types.UserDetails) internal CAlist;
+    mapping(address => Types.UserDetails) internal bankList;
+    mapping(address => Types.UserDetails) internal CompanyList;
+    mapping(address => Types.UserDetails) internal fpoList;
+    mapping(address => Types.FPOProduct) internal fpoProducts;
 
-    event NewUser(string name, string email, Types.UserRole role);
+    event NewUser(string name, string email, Types.UserRole  role);
+    event NewFPOUser(string name, string email, Types.UserRole role);
+ //   event NewFpoProduct(Types.FPOProduct fpoProduct);
+
     event LostUser(string name, string email, Types.UserRole role);
+
+
+    constructor(string memory name_, string memory email_) {
+        Types.UserDetails memory mn_ = Types.UserDetails({
+            role: Types.UserRole.PlatformOwner,
+            id_: msg.sender,
+            name: name_,
+            email: email_
+          
+        });
+        add(mn_);
+    }
+
 
     /**
      * @dev To add a particular user to a particular role
@@ -29,64 +49,129 @@ contract Users {
         emit NewUser(user.name, user.email, user.role);
     }
 
-    /**
+    // /**
+    //  * @dev To add a particular user to a current logged-in user's correspondence list
+    //  * @param user UserDetails that need to be added
+    //  * @param myAccount User address who is trying to add the other user
+    //  */
+    // function addNewUser(Types.UserDetails memory user, address myAccount)
+    //     internal
+    // {
+    //     require(myAccount != address(0));
+    //     require(user.id_ != address(0));
+
+    //     if ( 
+    //         (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+    //         (user.role == Types.UserRole.PlatformOwner)){
+    //         // Only PlatformOwner are allowed to add PlatformOwners
+    //         PlatformOwnerlist[user.id_] = user ;
+    //         add(user); // To add user to global list
+    //     } 
+    //     else if ( 
+    //         (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+    //         (user.role == Types.UserRole.Fpo)){
+    //         // Only PlatformOwner are allowed to add FPO
+    //         fpoList[user.id_] = user;
+    //         add(user); // To add user to global list
+    //     }       
+    //     else if ( 
+    //         (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+    //         (user.role == Types.UserRole.CertificaterIssuer)){
+    //         // Only PlatformOwner are allowed to add Certificate Issuer
+    //         CAlist[user.id_] = user;
+    //         add(user); // To add user to global list
+    //     }  
+    //     else if ( 
+    //         (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+    //         (user.role == Types.UserRole.Company)){
+    //         // Only PlatformOwner are allowed to add comapany
+    //         bankList[user.id_]=  user;
+    //         add(user); // To add user to global list
+    //     }
+    //     else if ( 
+    //         (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+    //         (user.role == Types.UserRole.InsuranceAgency)){
+    //         // Only PlatformOwner are allowed to add comapany
+    //         InsuranceAgencylist[user.id_]= user;
+    //         add(user); // To add user to global list
+    //     }
+    //     else {
+    //         revert("Not valid operation");
+    //     }
+    // }
+
+
+   /*
      * @dev To add a particular user to a current logged-in user's correspondence list
      * @param user UserDetails that need to be added
      * @param myAccount User address who is trying to add the other user
      */
-    function addparty(Types.UserDetails memory user, address myAccount)
-        internal
+    function addNewUser(Types.UserRole role,string memory name_, string memory email_, address myAccount)
+        public
     {
         require(myAccount != address(0));
-        require(user.id_ != address(0));
+        Types.UserDetails memory newUser;
+        newUser.role = role;
+        newUser.name = name_;
+        newUser.email = email_;
+        newUser.id_ = msg.sender;
 
-        if (
-            get(myAccount).role == Types.UserRole.Fpo &&
-            user.role == Types.UserRole.Fpo
-        ) {
-            // Only manufacturers are allowed to add suppliers
-            fpoList[myAccount].push(user);
-            add(user); // To add user to global list
-        } /*else if (
-            get(myAccount).role == Types.UserRole.Supplier &&
-            user.role == Types.UserRole.Vendor
-        ) {
-            // Only suppliers are allowed to add vendors
-            supplierVendorsList[myAccount].push(user);
-            add(user); // To add user to global list
-        } else if (
-            get(myAccount).role == Types.UserRole.Vendor &&
-            user.role == Types.UserRole.Customer
-        ) {
-            // Only vendors are allowed to add customers
-            vendorCustomersList[myAccount].push(user);
-            add(user); // To add user to global list
-        }*/ else {
+        if ( 
+            (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+            (role == Types.UserRole.PlatformOwner)){
+            // Only PlatformOwner are allowed to add PlatformOwners
+            PlatformOwnerlist[msg.sender] = newUser;
+            add(newUser); // To add user to global list
+        } 
+        else if ( 
+            (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+            (role == Types.UserRole.Fpo)){
+            // Only PlatformOwner are allowed to add FPO
+            fpoList[msg.sender] = newUser;
+            add(newUser); // To add user to global list
+        }       
+        else if ( 
+            (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+            (role == Types.UserRole.CertificaterIssuer)){
+            // Only PlatformOwner are allowed to add Certificate Issuer
+            CAlist[msg.sender] = newUser;
+            add(newUser); // To add user to global list // To add user to global list
+        }  
+        else if ( 
+            (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+            (role == Types.UserRole.Company)){
+            // Only PlatformOwner are allowed to add comapany
+            bankList[msg.sender] = newUser;
+            add(newUser); // To add user to global list
+        }
+        else if ( 
+            (get(myAccount).role == Types.UserRole.PlatformOwner) &&
+            (role == Types.UserRole.InsuranceAgency)){
+            // Only PlatformOwner are allowed to add comapany
+            InsuranceAgencylist[msg.sender] = newUser;
+            add(newUser); // To add user to global list
+        }
+        else {
             revert("Not valid operation");
         }
     }
 
-    /**
-     * @dev To get List of users that were added by the current logged-in user
-     * @param id_ User address who is trying to get his/her party details list
-     * @return usersList_ List of UserDetail objects will be returned (Which are added by same user)
+
+
+
+   /*
+     * @dev To add a particular user to a current logged-in user's correspondence list
+     * @param user UserDetails that need to be added
+     * @param myAccount User address who is trying to add the other user
      */
-    function getMyPartyList(address id_)
+    function addProduct(Types.FPOProduct memory product, address myAccount)
         internal
-        view
-        returns (Types.UserDetails[] memory usersList_)
     {
-        require(id_ != address(0), "Id is empty");
-        if (get(id_).role == Types.UserRole.Fpo) {
-            usersList_ = fpoList[id_];
-        } /*else if (get(id_).role == Types.UserRole.Supplier) {
-            usersList_ = supplierVendorsList[id_];
-        } else if (get(id_).role == Types.UserRole.Vendor) {
-            usersList_ = vendorCustomersList[id_];
-        } */else {
-            // Customer flow is not supported yet
-            revert("Not valid operation");
-        }
+        require(myAccount != address(0));
+        require(users[myAccount].role == Types.UserRole.Fpo, " Either is not FPO or he is not registered");
+
+        fpoProducts[myAccount] = product; 
+//        emit NewFpoProduct(product);
     }
 
     /**
@@ -161,19 +246,4 @@ contract Users {
             users[account].role == role);
     }
 
-    // Modifiers
-
-    /**
-     * @notice To check if the party is manufacturer
-     */
-    modifier onlyFPO() {
-        require(msg.sender != address(0), "Sender's address is Empty");
-        require(users[msg.sender].id_ != address(0), "User's address is Empty");
-        require(
-            Types.UserRole(users[msg.sender].role) ==
-                Types.UserRole.Fpo,
-            "Only FPO can add"
-        );
-        _;
-    }
 }

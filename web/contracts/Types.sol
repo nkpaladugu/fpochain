@@ -9,53 +9,76 @@ pragma solidity ^0.8.17;
  */
 library Types {
     enum UserRole {
-        Fpo, // 0
-        Farmer, // 1
-        FPOCustomer, // 2
-        Customer // 3
+        PlatformOwner, //0
+        Fpo, // 1
+        CertificaterIssuer, // 2
+        Company, // 3
+        Bank, // 4
+        InsuranceAgency, //5
+        InputSupplier //6
     }
-
-    struct UserDetails {
+    struct UserDetails{
         UserRole role;
         address id_;
         string name;
         string email;
+//        string location;
+//        int Rating; 
+//        int16 NoOfFarmers;
+//        mapping(int => string) products; 
     }
+    
+    // struct FPOAllDetails{
+    //     BasicUserDetails BasicDetails;
+    //     int16 NoOfFarmers;
+    //     mapping(int => string[]) products;             
+    // }
+//   struct UserDetails {
+//         UserRole role;
+//         FPODetails FPO
+//         address id_;
+//         string name;
+//         string email;
+//     }
+
+    // struct UserDetailedDetials{
+    //     UserDetails
+    // }
 
     enum ProductType {
-        PERISHABLES, // 0
-        SPICES, // 1
+        TOMATO, // 0
+        PEPPER, // 1
         RICE, // 2
         WHEAT, // 3
-        PULSES // 4
+        POTATO // 4
   
     }
 
-    struct UserHistory {
-        address id_; // account Id of the user
-        uint256 date; // Added, Purchased date in epoch in UTC timezone
-    }
+    // struct UserHistory {
+    //     address id_; // account Id of the user
+    //     uint256 date; // Added, Purchased date in epoch in UTC timezone
+    // }
 
-    struct ProductHistory {
-        UserHistory manufacturer;
-        UserHistory supplier;
-        UserHistory vendor;
-        UserHistory[] customers;
-    }
+    // struct ProductHistory {
+    //     UserHistory manufacturer;
+    //     UserHistory supplier;
+    //     UserHistory vendor;
+    //     UserHistory[] customers;
+    // }
 
-    struct Product {
+    struct FPOProduct {
         string name;
-        string farmerName;
-        address fpoaddress;
-        uint256 manDateEpoch;
-        uint256 expDateEpoch;
-        bool isInBatch; // few products will be packed & sold in batches
-        uint256 batchCount; // QTY that were packed in single batch
-        string barcodeId;
-        string productImage;
+        UserDetails FpoDetails;
         ProductType productType;
-        string scientificName;
-        string usage;
-        string[] composition;
+        string FPOGrade;
+        address _id_certificateAuthority;
+        string CertificateAutoGrade;
+        int32 FpoPricePerUnit;
+        string unit;
+        string TotalQuantity;
+        string AvailableQuantity;
+ //       mapping(string => int32) customerNameAndPricequotePerUnit;
     }
+
+
 }
