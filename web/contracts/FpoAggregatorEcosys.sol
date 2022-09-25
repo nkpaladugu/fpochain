@@ -7,8 +7,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
-import "./Types.sol";
-import "./Users.sol";
+
 
 contract FpoAggregatorEcosys is ERC1155, AccessControl, Pausable, ERC1155Burnable, ERC1155Supply {
    
@@ -62,40 +61,40 @@ contract FpoAggregatorEcosys is ERC1155, AccessControl, Pausable, ERC1155Burnabl
     event NewServiceProviderOnboarded( uint indexed spid, address indexed spaddress , string roleType , string name);
 
 
-    function addAgriItem (address _id, string memory _produceType, string memory _quantity,string memory _harvestdate, string memory _locLati, 
+    function addAgriItem (address _id, string memory _produceType, uint256  _quantity,string memory _harvestdate, string memory _locLati, 
         string memory _locLongi) public
     {
                 uint itemId=0;
                //  itemId= agriItems[msg.sender].length +1;
 
-        AgriItem memory agriItem = AgriItem(itemId,_id,_produceType, "fpo","farmer","certOrg","status","buyer",_quantity,_harvestdate,_locLati,_locLongi);
-        agriItems.push(itemId,agriItem);
+       // AgriItem memory agriItem = AgriItem(itemId,_id,_produceType, "fpo","farmer","certOrg","status","buyer",_quantity,_harvestdate,_locLati,_locLongi);
+        //agriItems.push(itemId,agriItem);
          _mint(_id, 1, _quantity, "some notes");// mint to _id, itemtype-1
 
-        emit NewAgriItemAdded(itemId, _produceType, _id, _quantity);
+       // emit NewAgriItemAdded(itemId, _produceType, _id, _quantity);
         
     }
 
- function addProduct(Types.FPOProduct memory product, address myAccount)
-        internal
-    {
-        require(myAccount != address(0));
-        require(users[myAccount].role == Types.UserRole.Fpo, " Either is not FPO or he is not registered");
+//  function addProduct(Types.FPOProduct memory product, address myAccount)
+//         internal
+//     {
+//         require(myAccount != address(0));
+//         require(users[myAccount].role == Types.UserRole.Fpo, " Either is not FPO or he is not registered");
 
-        fpoProducts[myAccount] = product; 
-//        emit NewFpoProduct(product);
-    }
+//         fpoProducts[myAccount] = product; 
+// //        emit NewFpoProduct(product);
+//     }
 
 
 
-        function buyAgriItem (address _id, string memory _produceType, string memory _quantity) public
+        function buyAgriItem (address _id, string memory _produceType, uint256 _quantity) public
     {
                 
-        super._safeTransferFrom( _fromId,_toId,_produceType,_quantity,"some notes");
+        super._safeTransferFrom( msg.sender, msg.sender ,1,_quantity,"some notes");
         //emit TransferSingle;
         
     }
-'
+
     function unmarshalRole (string memory _roletype) private pure returns (RoleEntity memory roleentity) {
 
         bytes32 encodedMode = keccak256(abi.encodePacked(_roletype));
@@ -106,36 +105,36 @@ contract FpoAggregatorEcosys is ERC1155, AccessControl, Pausable, ERC1155Burnabl
         bytes32 INSURERROLE = keccak256(abi.encodePacked("INSURER"));
 
 
-            if(encodedMode == FPOROLE) {
-                return RoleType.FPO;
-            } else if(encodedMode == BUYERROLE) {
-                return RoleType.BUYER;
-            }
+            // if(encodedMode == FPOROLE) {
+            //     return RoleType.FPO;
+            // } else if(encodedMode == BUYERROLE) {
+            //     return RoleType.BUYER;
+            // }
 
             revert (" invalid role type");
     }
 
-    function addEcoSysPrividers ( address _id, string memory _roletype, string memory name) public {
+    // function addEcoSysPrividers ( address _id, string memory _roletype, string memory name) public {
 
-        RoleType roleType =unmarshalRole(_roletype);
-        RoleEntity memory serviceProvider = RoleEntity(_id,roleType,name);
+    //     RoleType roleType =unmarshalRole(_roletype);
+    //     RoleEntity memory serviceProvider = RoleEntity(_id,roleType,name);
        
-        bytes32 encodedMode = keccak256(abi.encodePacked(_roletype));
-        bytes32 FPOROLE = keccak256(abi.encodePacked("FPO"));
-        bytes32 BUYERROLE = keccak256(abi.encodePacked("BUYER"));
+    //     bytes32 encodedMode = keccak256(abi.encodePacked(_roletype));
+    //     bytes32 FPOROLE = keccak256(abi.encodePacked("FPO"));
+    //     bytes32 BUYERROLE = keccak256(abi.encodePacked("BUYER"));
    
-        uint spId=0;
+    //     uint spId=0;
 
-            if(serviceProvider.RoleType == FPOROLE) {
-                spId=registeredFPOs.length+1;
-                registeredFPOs.push(serviceProvider);
-            } else if(encodedMode == BUYERROLE) {
-                spId=registeredCorpBuyer.length+1;
-                registeredCorpBuyer.push(serviceProvider);
-            }
+    //         if(serviceProvider.RoleType == FPOROLE) {
+    //             spId=registeredFPOs.length+1;
+    //             registeredFPOs.push(serviceProvider);
+    //         } else if(encodedMode == BUYERROLE) {
+    //             spId=registeredCorpBuyer.length+1;
+    //             registeredCorpBuyer.push(serviceProvider);
+    //         }
 
-        emit NewServiceProviderOnboarded(spId,_id,_roletype,name);
-    }
+    //     emit NewServiceProviderOnboarded(spId,_id,_roletype,name);
+    // }
     
 
     function setURI(string memory newuri) public onlyRole(URI_SETTER_ROLE) {
